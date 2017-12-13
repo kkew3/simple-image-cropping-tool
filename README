@@ -5,7 +5,10 @@ Introduction
 ------------
 
 Crop the surrounding white background of one or more images and write back to 
-the original file(s); or crop one image and write to a separate file. 
+the original file(s); or crop one image and write to a separate file. Useful 
+before inserting figures to reports, for example. The initial motive for the 
+author to create the script is to add it to pre-build script of LaTeX build 
+Makefile. 
 
 
 Usage
