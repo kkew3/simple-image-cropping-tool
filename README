@@ -1,0 +1,30 @@
+Simple Image Crop Tool
+======================
+
+Introduction
+------------
+
+Crop the surrounding white background of one or more images and write back to 
+the original file(s); or crop one image and write to a separate file. 
+
+
+Usage
+-----
+
+	crop IMAGEPATH [ IMAGEPATH ...] [-o OUTPUTPATH]
+
+
+Dependency
+----------
+
+`ImageMagick`
+
+
+Mechanism
+---------
+
+Just a Python3 wrapper around `magick [INPUTIMAGE] -trim [OUTPUTIMAGE]` for 
+convenient use. 
+
+If the `ImageMagick` command is `convert`, one may need to modify the 
+`DEFAULT_CROP_COMMAND` in `crop.py` adaptively. 
